@@ -1,0 +1,72 @@
+:root{
+    --gb-body: #ffffff;
+    --bg-section: #f2f2f2;
+    --color-word: #000000;
+    --color-itens: #6C63FF;
+}
+
+.dark-mode:root{
+    --gb-body: #222222;
+    --bg-section: #141414;
+    --color-word: #ffffff;
+    --color-itens: #6C63FF;
+}
+/*FORMATAÇÃO DO HTML*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background: var(--gb-body);
+}
+
+
+/*LOGO*/
+
+.logo img{
+    display: block;
+    max-width: 40px;
+    padding: 10px 20px;
+    float: left;  
+}
+
+
+/*HEADER*/
+
+.menu{
+    position: fixed;
+    background: var(--gb-body);
+    width: 100%;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    
+}   
+.menu-container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.menu-nav{
+    display: block;
+    float: right;
+    padding: 0 20px;
+}
+.menu-nav li{
+    display: inline-block; 
+    padding: 10px 0;
+}
+.menu-nav a{
+    display: block;
+    padding: 10px 11px;
+    color: var(--color-word);
+    font-size: 24px;
+}
+
+
+/*INTRO*/
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
