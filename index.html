@@ -229,20 +229,20 @@
                 <p>Lorem ipsum fames per ante velit ante velit</p>
             </div>
 
-            <form name="contact" method="POST" data-netlify="true">
-                <p>
-                  <label>E-mail:</label><br>
-                  <input type="email" name="email" />
+            <form class="form" name="contact" method="POST" data-netlify="true">
+                <p class="form-inform">
+                  <label>E-mail*:</label><br>
+                  <input type="email" name="email"  placeholder="  digite seu melhor e-mail" required/>
                 </p>
-                <p>
-                  <label>Nome:</label><br>  
-                  <input type="text" name="name" />  
+                <p class="form-inform">
+                  <label>Nome*:</label><br>  
+                  <input type="text" name="name" placeholder="  Digite seu nome" required />  
                 </p>
-                <p>
+                <p class="form-tex">
                   <label>Mensagem:</label><br>
-                  <textarea name="message"></textarea>
+                  <textarea name="message" placeholder=" Escreva aqui sua duvida, sugestão ou interesses"></textarea>
                 </p>
-                <p>
+                <p class="form-btn">
                   <button type="submit">Enviar</button>
                 </p>
               </form>

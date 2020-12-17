@@ -6,6 +6,7 @@
     --color-word: #000000;
     --color-word-btn: #ffffff;
     --color-itens: #6C63FF;
+    --bg-footer: #6C63FF;
 }
 
 .dark-mode:root{
@@ -16,6 +17,7 @@
     --color-word: #ffffff;
     --color-word-btn: #ffffff;
     --color-itens: #6C63FF;
+    --bg-footer: #222222;
 }
 /*FORMATAÇÃO DO HTML*/
 *{
@@ -250,4 +252,173 @@ body{
 .servico-card h1{
     font-size: 20px;
     padding: 0 0 15px 0;
+}
+
+
+/*CONHECIMENTOS*/
+
+.conhecimento{
+    min-width: 1100px;
+    margin: auto;
+    background: var(--gb-body);
+}
+
+.conhecimento-container{
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.conhecimento-container h1{
+    grid-column: 1 / -1;
+    font-size: 48px;
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.conhecimento-card{
+    max-width: 200px;
+    background:var(--bg-card);
+    margin: 25px auto;
+    padding: 40px 35px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.conhecimento-card i{
+    font-size: 100px;
+    color: var(--color-itens);
+    padding: 0 0 20px 0;
+}
+
+.conhecimento-card h1{
+    font-size: 20px;
+    padding: 0 0 15px 0;
+}
+
+.conhecimento-card p{
+    font-size: 20px;
+    color: var(--color-word);
+    padding: 0 0 15px 0;
+}
+
+.barra-progresso{
+    width: 70%;
+    height: 9px;
+    background: var(--color-itens);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*CONTATO*/
+
+.contato{
+    min-width: 1100px;
+    margin: auto;
+    background: var(--bg-section);
+    
+}
+
+.contato-container{
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+.contato-titulo{
+    text-align: center;
+}
+
+.contato-titulo h1{
+    font-size: 48px;
+    padding: 5px 0;
+    color: var(--color-word);
+}
+.contato-titulo p{
+    font-size: 20px;
+    color: var(--color-word);
+    padding: 0 0 40px 0;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 900px;
+    background: var(--bg-card-section);
+    border-radius: 6px;
+    box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.20);
+}
+.contato-titulo p{
+    color: var(--color-itens);
+}
+
+.form-inform{
+    margin: auto;
+    padding: 40px 0 30px 0;
+    font-size: 20px;
+}
+.form-inform input{
+    width: 300px;
+    height: 40px;
+    background: var(--bg-section);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+}
+.form-inform input:focus{
+    border: 1px solid var(--color-itens);
+}
+
+.form-tex{
+    grid-column: 1 / -1;
+    margin: auto;
+    font-size: 20px;
+}
+.form-tex textarea{
+    width: 750px;
+    height: 270px;
+    background: var(--bg-section);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+    max-width: 750px;
+    min-height: 150px;
+}
+.form-tex textarea:focus{
+    border: 1px solid var(--color-itens);
+}
+.form-btn{
+    padding: 0 0 30px 0;
+}
+.form-btn button{
+    padding: 15px 50px;
+    background-color: var(--color-itens);
+    border: none;
+    margin: 10px 75px;
+    border-radius: 6px;
+    color: var(--color-word-btn);
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+
+/*FOOTER*/
+
+.footer{
+    margin: auto;
+    background: var(--bg-footer);
+    padding: 80px 0;
+    text-align: center;
+}
+.footer h1{
+    font-size: 24px;
+    color: var(--color-word-btn);
 }
