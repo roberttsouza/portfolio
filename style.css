@@ -574,13 +574,54 @@ body{
     padding: 0 0 15px 0;
 }
 
-.barra-progresso{
+.barra-progresso-html{
     width: 70%;
     height: 9px;
     background: var(--color-itens);
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+.barra-progresso-css{
+    width: 60%;
+    height: 9px;
+    background: var(--color-itens);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.barra-progresso-javascript{
+    width: 20%;
+    height: 9px;
+    background: var(--color-itens);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.barra-progresso-wordpress{
+    width: 40%;
+    height: 9px;
+    background: var(--color-itens);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.barra-progresso-uxui{
+    width: 60%;
+    height: 9px;
+    background: var(--color-itens);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.barra-progresso-bootstrap{
+    width: 30%;
+    height: 9px;
+    background: var(--color-itens);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
 
 @media (max-width: 764px){
     .conhecimento-container{
@@ -747,7 +788,7 @@ body{
     }
 
     .form-inform{
-        font-size: 20px;
+        font-size: 16px;
     }
     .form-inform input{
         width: 290px;
