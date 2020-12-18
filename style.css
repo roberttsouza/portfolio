@@ -318,12 +318,17 @@ body{
     text-align: center;
 }
 
+.projeto-cont-card{
+    padding: 20px;
+    max-width: 266px;
+}
+
 .projeto-card h1{
+    width: 100%;
     font-size: 20px;
     color: var(--color-word);
     padding: 0 0 10px 0;
-    float: left;
-    margin-left: 10px;
+    text-align: left;
 }
 
 .projeto-card p{
@@ -331,14 +336,13 @@ body{
     color: var(--color-word);
     padding: 0 0 35px 0;
     text-align: left;
-    margin-left: 10px;
 }
 
 .projeto-card a{
     background: var(--color-itens);
     font-size: 15px;
     color: var(--color-word-btn);
-    padding: 10px 35px;
+    padding: 10px 29px;
     border-radius: 6px;
 }
 .projeto-card a + a{
@@ -370,10 +374,8 @@ body{
     
     .projeto-card a{
         font-size: 15px;
-        padding: 10px 17px;
-    }
-    .projeto-card a + a{
-        margin: 10px;
+        padding: 10px 0;
+        margin: 0;
     }
     .projeto-card i{
         margin: 5px;
@@ -405,13 +407,11 @@ body{
 
     .projeto-card h1{
         font-size: 20px;
-        margin-left: 30px;
     }
 
     .projeto-card p{
         padding: 0 0 35px 0;
         max-width: 300px;
-        margin-left: 30px;
     }
     .projeto-card a + a{
         margin: 5px;
