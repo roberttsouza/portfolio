@@ -135,7 +135,6 @@ body{
 
 .intro-descricao h1{
     font-size: 38px;
-    letter-spacing: 1px;
 }
 .intro-descricao a{
     text-align: center;
@@ -166,6 +165,7 @@ body{
     .intro-p{
         margin-bottom: 35px;
     }
+
     .intro-descricao a{
         text-align: center;
         font-size: 20px;
