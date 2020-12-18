@@ -44,6 +44,13 @@ body{
 @media (max-width: 764px){
     .logo img{
         max-width: 30px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .logo img{
+        max-width: 20px;
     }
 }
 
@@ -86,6 +93,23 @@ body{
     .menu-nav a{
         font-size: 20px;
     }
+}
+
+@media (max-width: 600px){
+    .menu-container{
+        max-width: 600px;
+    }
+    .menu-nav{
+        padding: 0 5px;
+    }
+    .menu-nav li{
+        padding:0;
+    }
+    .menu-nav a{
+        font-size: px;
+        padding: 10px 5px;
+    }
+    
 }
 
 
@@ -166,6 +190,25 @@ body{
 }
 
 
+@media (max-width: 600px){
+    .intro{
+        min-width: 600px;
+        background: var(--gb-body);
+    }
+    .intro-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .intro-descricao{
+        text-align: center;
+        padding: 210px 0;
+    }
+    .intro-img img{
+        display: none;
+    }
+}
+
+
 /*SOBRE MIM*/
 
 .sobre{
@@ -227,6 +270,28 @@ body{
     }
 }
 
+
+
+
+@media (max-width: 600px){
+    .sobre{
+        min-width: 600px;
+        margin: auto;
+        background: var(--bg-section);
+    }
+    .sobre-container{
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+    }
+    .sobre-cont{
+        margin: auto;
+        text-align: center;
+    }
+    .sobre-img img{
+        display: none;
+    }
+}
 
 /*PROJETO*/
 
@@ -325,6 +390,42 @@ body{
     }
 }
 
+@media (max-width: 600px){
+
+    .projeto{
+        min-width: 600px;
+        margin: auto;
+        background: var(--gb-body);
+    }
+    .projeto-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+        
+    .projeto-titulo{
+        text-align: center;
+        padding: 0 0 40px 0;
+        font-size: 38px;
+    }
+
+    .projeto-card{
+        padding: 40px 80px;
+        margin: 20px auto;
+    }
+
+    .projeto-card h1{
+        font-size: 20px;
+    }
+
+    .projeto-card p{
+        padding: 0 0 50px 0;
+    }
+
+    .projeto-card a{
+        padding: 15px 47px;
+    }
+}
+
 
 /*SERVIÇO*/
 
@@ -393,6 +494,40 @@ body{
     .servico-card p{
         font-size: 15px;
     }
+}
+
+
+@media (max-width: 600px){
+
+    .servico{
+        min-width: 600px;
+    }
+
+    .servico-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .servico-container h1{
+        font-size: 48px;
+    }
+    .servico-card{
+        margin:20px auto;
+        padding: 50px 100px;
+    }
+
+    .servico-card i{
+        font-size: 150px;
+    }
+
+    .servico-card h1{
+        font-size: 20px;
+    }
+
+    .servico-card p{
+        font-size: 20px;
+    }
+    
 }
 
 /*CONHECIMENTOS*/
@@ -480,6 +615,37 @@ body{
         font-size: 15px;
     }
     
+}
+
+@media (max-width: 600px){
+    
+    .conhecimento{
+        min-width: 600px;
+    }
+    .conhecimento-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .conhecimento-container h1{
+        font-size: 48px;
+    }
+    
+    .conhecimento-card {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 80px 110px;
+    }
+
+    .conhecimento-card h1{
+        font-size: 38px;
+    }
+    .conhecimento-card p{
+        font-size: 24px;
+    }
+    .conhecimento-card i{
+        font-size: 200px;
+    }
 }
 
 
@@ -608,6 +774,36 @@ body{
 }
 
 
+@media (max-width: 600px){
+    
+    .contato{
+        min-width: 600px;
+        
+    }
+
+    .form{
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form-inform{
+        padding: 20px 0;
+    }
+   
+    .form-inform input{
+        width: 400px;
+        padding: 0;
+    }
+    
+    .form-tex textarea{
+        width: 400px;
+    }
+    .form-btn button{
+        margin: 10px 51px; 
+        text-align: center;
+    }
+    
+}
 /*FOOTER*/
 
 .footer{
@@ -620,4 +816,12 @@ body{
 .footer h1{
     font-size: 24px;
     color: var(--color-word-btn);
+}
+
+@media (max-width: 600px){
+    
+    .footer{
+        margin: auto;
+        min-width: 600px;
+    }
 }
