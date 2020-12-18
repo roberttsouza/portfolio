@@ -97,7 +97,7 @@ body{
 
 @media (max-width: 600px){
     .menu-container{
-        max-width: 600px;
+        min-width: auto;
     }
     .menu-nav{
         padding: 0 5px;
@@ -106,7 +106,7 @@ body{
         padding:0;
     }
     .menu-nav a{
-        font-size: px;
+        font-size: 20px;
         padding: 10px 5px;
     }
     
@@ -192,8 +192,7 @@ body{
 
 @media (max-width: 600px){
     .intro{
-        min-width: 600px;
-        background: var(--gb-body);
+        min-width: auto;
     }
     .intro-container{
         display: grid;
@@ -202,6 +201,9 @@ body{
     .intro-descricao{
         text-align: center;
         padding: 210px 0;
+        max-width: 300px;
+        min-width: 240;
+        margin: auto;
     }
     .intro-img img{
         display: none;
@@ -275,9 +277,7 @@ body{
 
 @media (max-width: 600px){
     .sobre{
-        min-width: 600px;
-        margin: auto;
-        background: var(--bg-section);
+        min-width: auto;
     }
     .sobre-container{
         display: grid;
@@ -287,6 +287,7 @@ body{
     .sobre-cont{
         margin: auto;
         text-align: center;
+        min-width: 240px;
     }
     .sobre-img img{
         display: none;
@@ -393,7 +394,7 @@ body{
 @media (max-width: 600px){
 
     .projeto{
-        min-width: 600px;
+        min-width: auto;
         margin: auto;
         background: var(--gb-body);
     }
@@ -409,20 +410,25 @@ body{
     }
 
     .projeto-card{
-        padding: 40px 80px;
-        margin: 20px auto;
+        padding: 40px 5px;
+        margin:10px auto;
     }
 
     .projeto-card h1{
         font-size: 20px;
+        margin-left: 30px;
     }
 
     .projeto-card p{
-        padding: 0 0 50px 0;
+        padding: 0 0 30px 0;
+        max-width: 300px;
+        margin-left: 30px;
     }
-
+    .projeto-card a + a{
+        margin: 5px;
+    }
     .projeto-card a{
-        padding: 15px 47px;
+        padding: 15px 33px;
     }
 }
 
@@ -500,7 +506,7 @@ body{
 @media (max-width: 600px){
 
     .servico{
-        min-width: 600px;
+        min-width: auto;
     }
 
     .servico-container{
@@ -513,11 +519,11 @@ body{
     }
     .servico-card{
         margin:20px auto;
-        padding: 50px 100px;
+        padding: 10px 30px;
     }
 
     .servico-card i{
-        font-size: 150px;
+        font-size: 100px;
     }
 
     .servico-card h1{
@@ -526,6 +532,7 @@ body{
 
     .servico-card p{
         font-size: 20px;
+        max-width: 200px;
     }
     
 }
@@ -620,7 +627,7 @@ body{
 @media (max-width: 600px){
     
     .conhecimento{
-        min-width: 600px;
+        min-width: auto;
     }
     .conhecimento-container{
         display: grid;
@@ -632,19 +639,18 @@ body{
     }
     
     .conhecimento-card {
-        max-width: 600px;
+        max-width: 300px;
         margin: 20px auto;
-        padding: 80px 110px;
     }
 
     .conhecimento-card h1{
-        font-size: 38px;
+        font-size: 28px;
     }
     .conhecimento-card p{
-        font-size: 24px;
+        font-size: 20px;
     }
     .conhecimento-card i{
-        font-size: 200px;
+        font-size: 100px;
     }
 }
 
@@ -777,12 +783,12 @@ body{
 @media (max-width: 600px){
     
     .contato{
-        min-width: 600px;
+        min-width: auto;
         
     }
 
     .form{
-        max-width: 500px;
+        width: 300px;
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -791,12 +797,13 @@ body{
     }
    
     .form-inform input{
-        width: 400px;
+        width: 250px;
         padding: 0;
     }
     
     .form-tex textarea{
-        width: 400px;
+        width: 250px;
+        height: 100px;
     }
     .form-btn button{
         margin: 10px 51px; 
@@ -822,6 +829,10 @@ body{
     
     .footer{
         margin: auto;
-        min-width: 600px;
+        min-width: auto;
+    }
+
+    .footer h1{
+        font-size: 20px;
     }
 }
