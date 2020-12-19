@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/gif/png" href="img/logo-aba.png">
     <link rel="stylesheet" href="style.css">
     <title>Robertt Souza</title>
 </head>
@@ -17,21 +18,24 @@
         <a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
 
         <nav id="my-menu-nav" class="menu-nav">
-
+            
             <ul>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="ri-close-line"></i></a>
                 <li><a href="#sobre">sobre mim</a></li>
                 <li><a href="#projeto">projetos</a></li>
                 <li><a href="#servico">serviços</a></li>
                 <li><a href="#conhecimento">conhecimentos</a></li>
                 <li><a href="#contato">contatos</a></li>
                 <li>
-                    <label for="switch" class="dark-mode-container">
+                    <label for="switch" class="dark-mode-container" >
                     <input type="checkbox" id="switch">
+                    <div class="btn-dark"></div>
                     </label>
                 </li>
             </ul>
 
         </nav>
+        <span class="menu-open" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="ri-menu-4-line"></i></span>
     </div>
 
 </header>
@@ -48,7 +52,7 @@
                 <a href="https://github.com/roberttsouza" target="_blank"><i class="ri-github-fill"> </i>GitHub</a>
             </div>
             <div class="intro-img">
-                <img src="img/intro.png" alt="intro">
+                <img src="img/intro1.png" alt="intro">
             </div>
         </div>
     </section> 
@@ -254,15 +258,15 @@
 
             <form class="form" name="contact" method="POST" data-netlify="true">
                 <p class="form-inform">
-                  <label>E-mail*:</label><br>
+                  <label>E-mail*</label><br>
                   <input type="email" name="email"  placeholder="  digite seu melhor e-mail" required/>
                 </p>
                 <p class="form-inform">
-                  <label>Nome*:</label><br>  
+                  <label>Nome*</label><br>  
                   <input type="text" name="name" placeholder="  Digite seu nome" required />  
                 </p>
                 <p class="form-tex">
-                  <label>Mensagem:</label><br>
+                  <label>Mensagem</label><br>
                   <textarea name="message" placeholder=" Escreva aqui sua duvida, sugestão ou interesses"></textarea>
                 </p>
                 <p class="form-btn">
