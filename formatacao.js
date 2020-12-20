@@ -22,7 +22,7 @@ function openNav() {
 
 
 
-    
+ /*Efeito de one page scroll com Jquery*/   
 $('nav a').click(function(e){
   e.preventDefault();
   var id = $(this).attr('href'),

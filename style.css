@@ -496,6 +496,12 @@ input:checked + .btn-dark::before {
     }
 }
 
+@media (max-width: 314px){
+    .projeto-card a{
+        padding: 15px 20px;
+    }
+}
+
 
 /*SERVIÇO*/
 
