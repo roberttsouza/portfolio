@@ -476,7 +476,7 @@ input:checked + .btn-dark::before {
     }
 
     .projeto-card{
-        padding: 40px 0px;
+        padding: 10px 0px;
         margin:10px auto;
     }
 
@@ -487,27 +487,17 @@ input:checked + .btn-dark::before {
     .projeto-card p{
         padding: 0 0 35px 0;
         max-width: 300px;
+        min-width: 300px;
     }
     .projeto-card a + a{
-        margin: 5px;
+        margin: 5px auto;
     }
     .projeto-card a{
-        padding: 15px 33px;
-    }
-}
-
-@media (max-width: 325px){
-    .projeto-card a{
-        max-width: 200px;
         display: block;
-        padding: 15px 20px;
-        margin: auto;
-    }
-
-    .projeto-card a + a{
-        margin: 15px auto;
+        padding: 15px 23px;
     }
 }
+
 
 
 /*SERVIÇO*/
