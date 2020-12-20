@@ -497,9 +497,13 @@ input:checked + .btn-dark::before {
     }
 }
 
-@media (max-width: 317px){
+@media (max-width: 325px){
     .projeto-card a{
         padding: 15px 20px;
+    }
+
+    .projeto-card a + a{
+        margin: auto;
     }
 }
 
