@@ -476,7 +476,7 @@ input:checked + .btn-dark::before {
     }
 
     .projeto-card{
-        padding: 40px 5px;
+        padding: 40px 0px;
         margin:10px auto;
     }
 
@@ -496,7 +496,7 @@ input:checked + .btn-dark::before {
     }
 }
 
-@media (max-width: 314px){
+@media (max-width: 317px){
     .projeto-card a{
         padding: 15px 20px;
     }
