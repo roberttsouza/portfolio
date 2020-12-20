@@ -49,7 +49,7 @@
 @media (max-width: 600px){
 
     .success{
-        margin: auto;
+        padding: 100px 0 0 0;
     }
     .success-container{
         max-width: 300px;
