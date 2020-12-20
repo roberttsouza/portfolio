@@ -502,7 +502,7 @@ input:checked + .btn-dark::before {
     }
 
     .projeto-card a + a{
-        margin: auto;
+        margin: 15px;
     }
 }
 
