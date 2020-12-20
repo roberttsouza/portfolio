@@ -498,11 +498,14 @@ input:checked + .btn-dark::before {
 
 @media (max-width: 325px){
     .projeto-card a{
-        padding: 5px 10px;
+        max-width: 200px;
+        display: block;
+        padding: 15px 20px;
+        margin: auto;
     }
 
     .projeto-card a + a{
-        margin: 0;
+        margin: 15px auto;
     }
 }
 
