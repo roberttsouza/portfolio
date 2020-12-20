@@ -6,10 +6,42 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="estilo404.css">
     <link rel="icon" type="image/gif/png" href="img/logo-aba.png">
+    <link rel="stylesheet" href="style.css">
     <title>Error 404</title>
 </head>
 <body>
+
+    <header class="menu">
+        <div class="menu-container">
+            <a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
     
+            <nav id="my-menu-nav" class="menu-nav">
+                
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="ri-close-line"></i></a>
+                    <li><a href="index.html#sobre">sobre mim</a></li>
+                    <li><a href="index.html#projeto">projetos</a></li>
+                    <li><a href="index.html#servico">serviços</a></li>
+                    <li><a href="index.html#conhecimento">conhecimentos</a></li>
+                    <li><a href="index.html#contato">contatos</a></li>
+                    <li>
+                        <label for="switch" class="dark-mode-container" >
+                        <input type="checkbox" id="switch">
+                        <div class="btn-dark"></div>
+                        </label>
+                    </li>
+                </ul>
+    
+            </nav>
+            <span class="menu-open" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="ri-menu-4-line"></i></span>
+        </div>
+    
+    </header>
+    <div class="entre"></div>
+
+
+
+
     <section class="error404">
         <div class="error404-container">
             <img class="error404-item1" src="img/404.svg" alt="404">
@@ -18,7 +50,14 @@
     </section>
 
         <div class="error404-btn">
-            <a href="index.html"><i class="ri-arrow-left-line"></i>Voltar</a>
+            <h1>Oops! vimos que você esta perdido!</h1>
+            <p>A localização não pode ser encontrada</p>
+            <a href="index.html"><i class="ri-arrow-left-line"></i>Voltar para home</a>
         </div>
+
+
+
+
+        <script src="formatacao.js"></script>
 </body>
 </html>
