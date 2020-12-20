@@ -486,7 +486,8 @@ input:checked + .btn-dark::before {
 
     .projeto-card p{
         padding: 0 0 35px 0;
-        max-width: 320px;
+        max-width: 290px;
+        min-width: 280px;
     }
     .projeto-card a + a{
         margin: 5px;
