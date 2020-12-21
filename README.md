@@ -30,3 +30,4 @@
 - [ ] rewrites para alteração de url
 - [x] Mensagem de sucesso ao enviar um form
 - [x] Responsividade para qualquer dispositivo
+- [x] Google analytics
