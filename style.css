@@ -534,7 +534,7 @@ input:checked + .btn-dark::before {
     text-align: center;
 }
 .servico-card img{
-    width: 80%;
+    width: 40%;
     color: var(--color-itens);
 }
 .servico-card h1{
@@ -639,7 +639,7 @@ input:checked + .btn-dark::before {
 }
 
 .conhecimento-card i{
-    font-size: 100px;
+    font-size: 80px;
     color: var(--color-itens);
     padding: 0 0 30px 0;
 }
