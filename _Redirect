@@ -1,1 +1,8 @@
 /index/* /index/404.html 404
+
+/index.html /home
+/#sobre /sobre
+/#projeto /projetos
+/#servico /servicos
+/#conhecimento /conhecimentos
+/#contato /contato
