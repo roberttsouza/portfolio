@@ -1,8 +1,3 @@
 /index/* /index/404.html 404
 
-/index.html /home
-/index.html#sobre /sobre
-/index.html#projeto /projetos
-/index.html#servico /servicos
-/index.html#conhecimento /conhecimentos
-/index.html#contato /contato
+/index/contato https://robertt.netlify.app/#contato 
