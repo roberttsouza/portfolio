@@ -1,5 +1,6 @@
 :root{
     --gb-body: #ffffff;
+    --gb-body-blur: rgb(255, 255, 255, 30%);
     --bg-section: #f2f2f2;
     --bg-card-section: #ffffff;
     --bg-card: #f2f2f2f2;
@@ -11,6 +12,7 @@
 
 .dark-mode:root{
     --gb-body: #222222;
+    --gb-body-blur: rgb(34, 34, 34, 30%);
     --bg-section: #141414;
     --bg-card-section: #222222;
     --bg-card: #131212f2;
@@ -61,10 +63,11 @@ body{
 
 .menu{
     position: fixed;
-    background: var(--gb-body);
+    background: var(--gb-body-blur);
     width: 100%;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
     z-index: 1;
+    backdrop-filter: blur(10px);
     
 }   
 .menu-container{
