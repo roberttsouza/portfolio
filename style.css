@@ -133,6 +133,9 @@ input:checked + .btn-dark::before {
   }
 
 @media (max-width: 764px){
+    .menu{
+        -webkit-backdrop-filter: blur(10px);
+    }
     .menu-container{
         max-width: 763px;
     }
@@ -147,6 +150,9 @@ input:checked + .btn-dark::before {
         display: block;
     }
 
+    .menu{
+        -webkit-backdrop-filter: blur(10px);
+    }
     .menu-nav{
         height: 0;
         width: auto;
