@@ -581,7 +581,6 @@ input:checked + .btn-dark::before {
     }
     
     .servico-card{
-        max-width: 300px;
         margin:20px 10px;
     }
     .servico-card i{
@@ -597,7 +596,7 @@ input:checked + .btn-dark::before {
 @media (max-width: 600px){
 
     .servico{
-        min-width: auto;
+        min-width: 300px;
     }
 
     .servico-container{
@@ -622,6 +621,7 @@ input:checked + .btn-dark::before {
     }
 
     .servico-card p{
+        margin: auto;
         max-width: 200px;
     }
     
