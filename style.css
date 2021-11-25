@@ -227,6 +227,11 @@ input:checked + .btn-dark::before {
 }
 .intro-p{
     margin-bottom: 40px;
+    color: var(--gb-body);
+}
+
+.intro-p .type{
+    color: var(--color-word);
 }
 
 .intro-descricao h1{

@@ -35,3 +35,15 @@ $('html, body').animate({
 }, 500);
 
 });
+
+
+
+var typed = new Typed('.type',{
+  strings: [
+            "Desenvolvedor Front-End", 
+            "UX/UI Design"],
+  typeSpeed: 30,
+  backSpeed: 20,
+  cursorChar: '',
+  loop: true
+});
