@@ -37,7 +37,7 @@ $('html, body').animate({
 });
 
 
-
+/*FUNÇÃO DE DIGITAÇÃO COM LOOP UTILIZANDO TYPED*/
 var typed = new Typed('.type',{
   strings: [
             "Desenvolvedor Front-End", 
