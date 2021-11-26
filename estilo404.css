@@ -8,9 +8,9 @@
 }
 
 .error404{
-    background-image: url('img/bg404.svg');
+    background-image: url('img/memoji404.png');
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 20%;
     background-position: center;
     padding: 140px 0;
     text-align: center;
@@ -24,8 +24,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    width: 40%;
-    text-align: center;
+    width: 20%;
+    margin-top: -10px;
+    margin-bottom: 20px;
 
 }
 
