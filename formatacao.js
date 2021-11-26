@@ -41,7 +41,8 @@ $('html, body').animate({
 var typed = new Typed('.type',{
   strings: [
             "Desenvolvedor Front-End", 
-            "UX/UI Design"],
+            "UX/UI Design"
+          ],
   typeSpeed: 30,
   backSpeed: 20,
   cursorChar: '',
