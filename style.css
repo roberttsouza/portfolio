@@ -731,6 +731,15 @@ input:checked + .btn-dark::before {
     margin-bottom: 10px;
 }
 
+.conhecimento .certificacao{
+    margin: 0 0 50px 0;
+    text-align: center; 
+}
+.conhecimento .certificacao a{
+    color: var(--color-itens); 
+    border-bottom: 2px solid #6C63FF;
+}
+
 
 @media (max-width: 764px){
     .conhecimento-container{
