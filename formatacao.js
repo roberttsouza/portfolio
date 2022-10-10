@@ -48,3 +48,15 @@ var typed = new Typed('.type',{
   cursorChar: '',
   loop: true
 });
+
+
+
+
+/*ATUALIZAR MINHA IDADE TODOS OS ANOS AUTOMATICAMENTE*/
+const nascimento = 1996;
+const getAno = new Date().getFullYear();
+
+const idade = getAno-nascimento;
+
+const texIdade = document.querySelector(".texIdade");
+texIdade.innerHTML = `${idade}`
